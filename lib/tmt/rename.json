@@ -1,0 +1,4 @@
+{
+  "css/tmt.less": "css/{%= name %}.less",
+  "html/tmt.html": "html/{%= name %}.html"
+}

@@ -1,0 +1,40 @@
+@import "import-mixins";
+
+// BFC
+// --------------------------
+.lay-bfc{
+	.clearfix();
+}
+.lay-bfc__left{
+	float:left
+}
+.lay-bfc__right{
+	float: right;
+}
+.lay-bfc__content{
+	display:table-cell;
+	&:after{
+		clear:both;
+		display:block;
+		visibility:hidden;
+		overflow:hidden;
+		height:0 !important;
+		line-height:0;
+		font-size:xx-large;
+		content:" x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ";
+	}
+}
+
+
+
+// Flex
+// --------------------------
+.lay-flex{
+	display:-webkit-box;
+
+}
+.lay-flex__item{
+	-webkit-box-flex:1;
+	display:block !important;/*must be block*/
+	width:0;
+}

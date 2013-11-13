@@ -1,0 +1,12 @@
+    {
+      "name": "mytest-nosprite",
+      "description": "go.qq.com source code.",
+      "author": {
+        "name": "meterscao"
+      },
+      "dependencies": {
+        "grunt": "*",
+        "grunt-contrib-less": "*",
+        "grunt-contrib-cssmin": "*"
+      }
+    }

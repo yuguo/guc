@@ -1,0 +1,78 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.3.2
+3 info using node@v0.10.13
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/yuguo/Sites/grunt-test/proj-mytest-nosprite',
+5 verbose install   [ 'grunt',
+5 verbose install     'grunt-contrib-less',
+5 verbose install     'grunt-contrib-cssmin',
+5 verbose install     'grunt-log' ] ]
+6 info preinstall mytest-nosprite@
+7 verbose readDependencies using package.json deps
+8 verbose already installed skipping grunt-contrib-cssmin@* /Users/yuguo/Sites/grunt-test/proj-mytest-nosprite
+9 verbose cache add [ 'grunt-log@*', null ]
+10 verbose cache add name=undefined spec="grunt-log@*" args=["grunt-log@*",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'grunt-log@*',
+11 verbose parsed url   path: 'grunt-log@*',
+11 verbose parsed url   href: 'grunt-log@*' }
+12 verbose cache add name="grunt-log" spec="*" args=["grunt-log","*"]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: '*',
+13 verbose parsed url   path: '*',
+13 verbose parsed url   href: '*' }
+14 verbose addNamed [ 'grunt-log', '*' ]
+15 verbose addNamed [ null, '*' ]
+16 verbose already installed skipping grunt@* /Users/yuguo/Sites/grunt-test/proj-mytest-nosprite
+17 silly lockFile a66b79f2-grunt-log grunt-log@*
+18 verbose lock grunt-log@* /Users/yuguo/.npm/a66b79f2-grunt-log.lock
+19 verbose already installed skipping grunt-contrib-less@* /Users/yuguo/Sites/grunt-test/proj-mytest-nosprite
+20 silly addNameRange { name: 'grunt-log', range: '*', hasData: false }
+21 verbose url raw grunt-log
+22 verbose url resolving [ 'http://npm.tuna.tsinghua.edu.cn/registry/', './grunt-log' ]
+23 verbose url resolved http://npm.tuna.tsinghua.edu.cn/registry/grunt-log
+24 info trying registry request attempt 1 at 11:40:23
+25 http GET http://npm.tuna.tsinghua.edu.cn/registry/grunt-log
+26 info retry will retry, error on last attempt: Error: socket hang up
+27 info trying registry request attempt 2 at 11:40:38
+28 http GET http://npm.tuna.tsinghua.edu.cn/registry/grunt-log
+29 info retry will retry, error on last attempt: Error: socket hang up
+30 info trying registry request attempt 3 at 11:41:42
+31 http GET http://npm.tuna.tsinghua.edu.cn/registry/grunt-log
+32 silly lockFile a66b79f2-grunt-log grunt-log@*
+33 silly lockFile a66b79f2-grunt-log grunt-log@*
+34 error Error: socket hang up
+34 error     at createHangUpError (http.js:1453:15)
+34 error     at Socket.socketOnEnd (http.js:1549:23)
+34 error     at Socket.g (events.js:175:14)
+34 error     at Socket.EventEmitter.emit (events.js:117:20)
+34 error     at _stream_readable.js:910:16
+34 error     at process._tickCallback (node.js:415:13)
+35 error If you need help, you may report this log at:
+35 error     <http://github.com/isaacs/npm/issues>
+35 error or email it to:
+35 error     <npm-@googlegroups.com>
+36 error System Darwin 13.0.0
+37 error command "node" "/usr/local/bin/npm" "install"
+38 error cwd /Users/yuguo/Sites/grunt-test/proj-mytest-nosprite
+39 error node -v v0.10.13
+40 error npm -v 1.3.2
+41 error code ECONNRESET
+42 verbose exit [ 1, true ]

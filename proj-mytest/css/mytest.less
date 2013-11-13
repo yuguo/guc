@@ -1,0 +1,50 @@
+@import "import-var";		//变量定义
+@import "import-mixins";		//mixin
+@import "import-reset";		//初始化
+
+@import "import-lay";       //布局
+@import "import-icon";		//图标
+@import "import-base";		//base
+
+@import "import-mod-xxx";	//对话框
+@import "import-ui";		//界面
+
+
+/*
+每个CSS开头要有各种人类
+@css Damao
+@pdm xxx
+@js ooo
+
+如果有项目体验地址啥的也写上,还有测试账号神马的
+*/
+
+/*
+文件名和class名命名参考
+http://bem.info/
+简单的说
+-	连字符
+__	子元素
+_	状态
+
+type-block__element_modifier
+
+例
+fn-menu__item_hover
+fn-main-menu__list-item_active
+ui-tof
+mod-flex
+
+前缀是划分全局变量的好方法,避免相互污染
+fn	(Function) 标示一个独立的功能区块,作用同id
+ui	(User-Interface) 一个DOM结构可以搞定的表现层封装
+mod	(module) 两个以上DOM结构组成的
+
+不能直接写样式在tag上
+例如
+.fn-menu li{}
+会导致嵌套 li 的时候样式污染
+
+*/
+
+.anythingxxx {background: red;}

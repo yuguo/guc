@@ -1,0 +1,19 @@
+{
+  "name": "mytest",
+  "description": "The best Grunt plugin ever.",
+  "author": {
+    "name": "hellometers"
+  },
+  "dependencies": {
+    "grunt": "*",
+    "grunt-contrib-less": "*",
+    "grunt-contrib-cssmin": "*",
+    "grunt-sprite": "*",
+    "grunt-pngmin": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-2x2x": "*",
+    "grunt-ftp-deploy": "0.0.10",
+    "gm": "*"
+  }
+}

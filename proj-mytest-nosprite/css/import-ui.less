@@ -1,0 +1,135 @@
+//----------------------------
+//
+//  import-ui.less v0.1.0 @TmT
+//  @zedhuang
+//  UI class
+//
+//----------------------------
+
+@import "import-var";
+@import "import-mixins";
+
+// 布局方位
+// --------------------------
+.ui-ta-c{ text-align:center; }
+.ui-ta-l{ text-align:left; }
+.ui-ta-r{ text-align:right; }
+
+.ui-va-b{ vertical-align:bottom; }
+.ui-va-bl{ vertical-align:baseline; }
+.ui-va-m{ vertical-align:middle; }
+.ui-va-t{ vertical-align:top; }
+
+.ui-pos-a{ position:absolute; }
+.ui-pos-f{ position:fixed; }
+.ui-pos-r{ position:relative; }
+.ui-pos-s{ position:static; }
+
+.ui-ov-a{ overflow:auto;}
+.ui-ov-h{ overflow:hidden;}
+.ui-ov-s{ overflow:scroll;}
+.ui-ov-v{ overflow:visible;}
+
+.ui-fl-l{ float:left; }
+.ui-fl-n{ float:none; }
+.ui-fl-r{ float:right; }
+
+.ui-d-b{ display:block; }
+.ui-d-i{ display:inline; }
+.ui-d-ib{ display:inline-block; }
+.ui-d-n{ display:none; }
+
+// Margin & Padding
+// --------------------------
+.ui-gap{
+	padding-right: @paddingPrimary;
+	padding-bottom: @paddingPrimary;
+	padding-left: @paddingPrimary;
+}
+
+.ui-m-auto{ margin-left:auto; margin-right:auto; }
+.ui-m-medium{ margin:@marginPrimary; }
+.ui-mt-medium{ margin-top:@marginPrimary; }
+.ui-mr-medium{ margin-right:@marginPrimary; }
+.ui-mb-medium{ margin-bottom:@marginPrimary; }
+.ui-ml-medium{ margin-left:@marginPrimary; }
+
+.ui-m-small{ margin:@marginSmall; }
+.ui-mt-small{ margin-top:@marginSmall; }
+.ui-mr-small{ margin-right:@marginSmall; }
+.ui-mb-small{ margin-bottom:@marginSmall; }
+.ui-ml-small{ margin-left:@marginSmall; }
+
+.ui-m-large{ margin:@marginLarge; }
+.ui-mt-large{ margin-top:@marginLarge; }
+.ui-mr-large{ margin-right:@marginLarge; }
+.ui-mb-large{ margin-bottom:@marginLarge; }
+.ui-ml-large{ margin-left:@marginLarge; }
+
+.ui-p-medium{ padding:@paddingPrimary; }
+.ui-pt-medium{ padding-top:@paddingPrimary; }
+.ui-pr-medium{ padding-right:@paddingPrimary; }
+.ui-pb-medium{ padding-bottom:@paddingPrimary; }
+.ui-pl-medium{ padding-left:@paddingPrimary; }
+
+.ui-p-small{ padding:@paddingSmall; }
+.ui-pt-small{ padding-top:@paddingSmall; }
+.ui-pr-small{ padding-right:@paddingSmall; }
+.ui-pb-small{ padding-bottom:@paddingSmall; }
+.ui-pl-small{ padding-left:@paddingSmall; }
+
+.ui-p-large{ padding:@paddingLarge; }
+.ui-pt-large{ padding-top:@paddingLarge; }
+.ui-pr-large{ padding-right:@paddingLarge; }
+.ui-pb-large{ padding-bottom:@paddingLarge; }
+.ui-pl-large{ padding-left:@paddingLarge; }
+
+// 字体
+// --------------------------
+.ui-fz-x-small{ font-size:@fontSizeXSmall; }
+.ui-fz-small{ font-size:@fontSizeSmall; }
+.ui-fz-medium{ font-size:@fontSizePrimary; }
+.ui-fz-large{ font-size:@fontSizeLarge; }
+.ui-fz-x-large{ font-size:@fontSizeXLarge; }
+
+// 颜色
+// --------------------------
+.ui-c-muted{ color:@colorMuted; }
+.ui-c-light{ color:@colorLight; }
+.ui-c-primary{ color:@colorPrimary; }
+.ui-c-dark{ color:@colorDark; }
+.ui-c-link{ color:@colorLink; }
+.ui-c-hightlight{ color:@colorHighLight; }
+.ui-c-strong{ color:@colorStrong; }
+
+
+// 文字溢出
+// --------------------------
+.ui-tof{
+	.text-overflow()
+}
+
+// Fluid 布局
+// --------------------------
+.ui-full{
+	width:100%;
+	display:block;
+}
+
+
+// clearfix
+// --------------------------
+.ui-clearfix {
+	.clearfix();
+}
+
+// zoom
+// --------------------------
+.ui-zoom{ zoom:1; }
+
+
+// 虚拟格式
+// --------------------------
+.ui-cur-d{ cursor:default; }
+.ui-cur-p{ cursor:pointer; }
+

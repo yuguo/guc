@@ -1,0 +1,17 @@
+body {
+  background-color: #ededed;
+  color: #686868;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 19.599999999999998px;
+}
+a {
+  color: #686868;
+  text-decoration: none;
+  cursor: pointer;
+}
+.icon {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+}
